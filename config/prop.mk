@@ -37,9 +37,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    pm.dexopt.boot=verify \
-    pm.dexopt.first-boot=quicken \
-    pm.dexopt.install=speed-profile \
     pm.dexopt.bg-dexopt=everything
 
 ifneq ($(AB_OTA_PARTITIONS),)
